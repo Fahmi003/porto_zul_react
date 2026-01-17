@@ -67,9 +67,6 @@ Prerequisites
 Installation
 bash
 
-
-git clone https://github.com/Raditt10/React-p0rt0.git
-cd https://github.com/Raditt10/React-p0rt0.git
 npm install
 npm start
 
