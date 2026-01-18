@@ -5,8 +5,6 @@ Frontend Technologies
 
     GSAP - Professional-grade animations
 
-    ScrollTrigger - Scroll-based animations
-
     Tailwind CSS - Utility-first CSS framework
 
 Animation & Effects

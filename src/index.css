@@ -314,3 +314,39 @@ textarea::-webkit-scrollbar-thumb {
   font-size: 4rem;
 }
 
+:root {
+  --hero-bg: #f7f7fb;
+
+  --hero-grad-from: rgba(229, 221, 255, 0.9);
+  --hero-grad-via: rgba(247, 247, 251, 0.7);
+  --hero-grad-to: rgba(255, 255, 255, 0.9);
+
+  --hero-glow: 168, 85, 247;
+
+  --hero-text-main: #0f172a;
+  --hero-text-muted: #64748b;
+}
+
+[data-theme="dark"] {
+  --hero-bg: #020207;
+
+  --hero-grad-from: rgba(26, 16, 51, 0.85);
+  --hero-grad-via: rgba(2, 2, 7, 0.6);
+  --hero-grad-to: rgba(0, 0, 0, 0.9);
+
+  --hero-glow: 168, 85, 247;
+
+  --hero-text-main: #ffffff;
+  --hero-text-muted: #a1a1aa;
+}
+
+:root {
+  /* LIGHT MODE */
+  --particle-color: 120, 120, 160; /* abu ke ungu */
+  --particle-opacity: 0.12;
+}
+
+[data-theme="dark"] {
+  --particle-color: 180, 180, 255; /* soft lavender */
+  --particle-opacity: 0.22;
+}

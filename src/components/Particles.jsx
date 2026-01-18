@@ -16,6 +16,17 @@ const hexToRgb = hex => {
   ];
 };
 
+const getParticleColor = () => {
+  const style = getComputedStyle(document.documentElement);
+  const rgb = style.getPropertyValue('--particle-color').trim();
+  const opacity = style.getPropertyValue('--particle-opacity').trim();
+
+  return {
+    color: rgb,
+    opacity: parseFloat(opacity),
+  };
+};
+
 /* ================= SHADERS ================= */
 
 const vertex = /* glsl */ `

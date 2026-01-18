@@ -6,6 +6,7 @@ import { SplitText } from "gsap/SplitText";
 import { useState, useEffect } from 'react';
 
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 import Hero from './components/Hero';
 import TechStack from './components/TechStack';
 import Gallery from './components/Gallery';
@@ -58,6 +59,7 @@ function App() {
           <Route path="/" element={
             <>
               <Navbar />
+              <Home />
               <Hero />
               <About />
               <TechStack />
