@@ -15,16 +15,6 @@
   --font-minecraft: "Minecraft", monospace;
 }
 
-html {
-  color-scheme: dark light;
-}
-
-body {
-  color: #0f172a; /* default light mode text */
-  background-color: #ffffff;
-  scroll-behavior: smooth;
-}
-
 html.dark body {
   color: #ffffff; /* ✅ pastikan teks putih di dark mode */
   background-color: transparent; /* atau sesuaikan */
@@ -269,13 +259,6 @@ textarea::-webkit-scrollbar-thumb {
   animation: scrollbar-glow 3s ease-in-out infinite;
 }
 
-/* Untuk browser yang mendukung scrollbar styling di dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    scrollbar-color: #f8ecde #0a0d12;
-  }
-}
-
 /* Responsive scrollbar untuk mobile */
 @media (max-width: 768px) {
   ::-webkit-scrollbar {
@@ -350,3 +333,4 @@ textarea::-webkit-scrollbar-thumb {
   --particle-color: 180, 180, 255; /* soft lavender */
   --particle-opacity: 0.22;
 }
+ 

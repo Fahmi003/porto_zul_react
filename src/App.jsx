@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Hero from './components/Hero';
 import TechStack from './components/TechStack';
 import Gallery from './components/Gallery';
 import Journey from './components/Journey';
@@ -60,7 +59,6 @@ function App() {
             <>
               <Navbar />
               <Home />
-              <Hero />
               <About />
               <TechStack />
               <Gallery />
