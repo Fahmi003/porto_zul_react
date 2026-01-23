@@ -5,7 +5,7 @@ const Opening = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
   const [stage, setStage] = useState("loading");
   const [typedText, setTypedText] = useState("");
-  const fullText = "自豪地呈现";
+  const fullText = "مرحبا بالعالم";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -61,7 +61,7 @@ const Opening = ({ onComplete }) => {
             className="text-4xl md:text-5xl font-black text-white mb-3 tracking-tight drop-shadow-sm"
             style={{ fontFamily: '"Fredoka One", "Fredoka", system-ui, sans-serif', fontWeight: 900, letterSpacing: '0.02em' }}
           >
-            Hao!
+            Hello World!!! 
           </h1>
           <div
             className="text-white/90 text-lg sm:text-xl md:text-2xl font-bold tracking-[0.2em] sm:tracking-[0.25em] uppercase h-9 sm:h-10 flex items-center justify-center"
@@ -94,7 +94,7 @@ const Opening = ({ onComplete }) => {
               className="flex-1 text-left text-white/80 text-lg sm:text-xl md:text-lg font-semibold"
               style={{ fontFamily: 'Comic Sans MS, Comic Sans, cursive' }}
             >
-              Tunggu bentar yaa..
+              Wait A Minute..
             </span>
             <span
               className="min-w-[64px] text-right text-white font-black text-2xl sm:text-3xl tracking-tighter tabular-nums"

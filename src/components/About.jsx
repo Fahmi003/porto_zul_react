@@ -254,7 +254,7 @@ const About = () => {
               {/* Call to Action */}
               <div className="pt-4 flex justify-start">
                 <a
-                  href="/file/CV_Zulfahmi_Ridha_IT_Support.pdf"
+                  href="/file/CV_ZulfahmiRidha.pdf"
                   download
                   className={`
                     relative flex items-center justify-center px-6 py-3 backdrop-blur-sm rounded-xl border transition-all duration-200 font-medium text-lg
@@ -301,7 +301,7 @@ const About = () => {
               {/* Call to Action - dengan styling card seperti TechStack */}
               <div className="pt-4 flex justify-start">
                 <a
-                  href="/file/CV_Zulfahmi_Ridha_IT_Support.pdf"
+                  href="/file/CV_ZulfahmiRidha.pdf"
                   download
                   className={`
                     relative flex items-center justify-center px-6 py-3 backdrop-blur-sm rounded-xl border transition-all duration-200 font-medium text-lg

@@ -13,7 +13,7 @@ import Journey from './components/Journey';
 import Projetcs from './components/Projetcs';
 import Footer from './components/Footer';
 import About from './components/About';
-//import Opening from './components/Opening';
+import Opening from './components/Opening';
 //import CustomCursor from './components/CustomCursor';
 import NotFound from './components/NotFound';
 import { Routes, Route } from 'react-router-dom';
@@ -21,7 +21,7 @@ import { Routes, Route } from 'react-router-dom';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
-  // const [showOpening, setShowOpening] = useState(true);
+  const [showOpening, setShowOpening] = useState(true);
   const [theme, setTheme] = useState(() => {
     if (typeof window === 'undefined') return 'dark';
     const saved = localStorage.getItem('theme');
@@ -53,7 +53,7 @@ function App() {
           : 'linear-gradient(135deg, #040507 0%, #0a0d12 50%, #050608 100%)'
       }}>
         {/* <CustomCursor /> */}
-        {/* {showOpening && <Opening onComplete={() => setShowOpening(false)} />} */}
+        {showOpening && <Opening onComplete={() => setShowOpening(false)} />}
         <Routes>
           <Route path="/" element={
             <>

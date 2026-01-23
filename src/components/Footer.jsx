@@ -322,9 +322,9 @@ const Footer = () => {
                   }}>Social</h2>
               <div className="flex justify-center gap-5 sm:gap-6 md:gap-8 items-center flex-wrap">
                 {[
-                  { href: "https://www.instagram.com/rafaa_ndl?igsh=MXVuenhyaHgzeGhjMw==", src: "/img/instagram.png", alt: "Instagram" },
-                  { href: "https://www.youtube.com/@iniakuraditt", src: "/img/youtube.png", alt: "YouTube" },
-                  { href: "https://www.linkedin.com/in/rafaditya-syahputra-789809399/", src: "/img/linkin.png", alt: "LinkedIn" },
+                  { href: "https://www.instagram.com/zulfahmiridha_?igsh=a3Uwejg4NGF0bnQw", src: "/img/instagram.png", alt: "Instagram" },
+                  { href: "https://www.youtube.com/@fahmiimhaf333", src: "/img/youtube.png", alt: "YouTube" },
+                  { href: "https://www.linkedin.com/in/zulfahmi-ridha-59ab2725a/", src: "/img/linkin.png", alt: "LinkedIn" },
                 ].map((social, i) => (
                   <a key={i} href={social.href} target="_blank" rel="noopener noreferrer" className="block group/social relative touch-manipulation active:scale-95" aria-label={social.alt}>
                     <div className="absolute -inset-2 rounded-full opacity-0 group-hover/social:opacity-40 transition-opacity duration-300 blur-lg bg-white/30" />
@@ -355,7 +355,7 @@ const Footer = () => {
               style={{
                 backgroundImage: isLight ? 'linear-gradient(135deg, #1f2937 0%, #334155 50%, #b45309 100%)' : 'linear-gradient(135deg, #9ca3af 0%, #6b7280 100%)',
                 backgroundClip: 'text', WebkitBackgroundClip: 'text'
-              }}>© Ra'e All rights reserved.</h1> 
+              }}>© AM I All rights reserved.</h1> 
         </div>
 
         <style>{`
