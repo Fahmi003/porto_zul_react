@@ -8,9 +8,9 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import TechStack from './components/TechStack';
-import Gallery from './components/Gallery';
+// import Gallery from './components/Gallery';
 import Journey from './components/Journey';
-import Projetcs from './components/Projetcs';
+// import Projetcs from './components/Projetcs';
 import Footer from './components/Footer';
 import About from './components/About';
 import Opening from './components/Opening';
@@ -61,9 +61,9 @@ function App() {
               <Home />
               <About />
               <TechStack />
-              <Gallery />
+              {/* <Gallery /> */}
               <Journey />
-              <Projetcs />
+              {/* <Projetcs /> */}
               <Footer />
             </>
           } />

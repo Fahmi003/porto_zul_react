@@ -227,21 +227,21 @@ const navlinks = [
     "link" : "#about"
   },
 
+  // {
+  //   id: 3,
+  //   text: "Gallery",
+  //   link: "#gallery"
+  // },
   {
     id: 3,
-    text: "Gallery",
-    link: "#gallery"
-  },
-  {
-    id: 4,
     text: " Journey",
     link: "#journey"
   },
-  {
-    id: 5,
-    text: "Featured Projects",
-    link: "#projects"
-  },
+  // {
+  //   id: 5,
+  //   text: "Featured Projects",
+  //   link: "#projects"
+  // },
 
   // {
   //   id: 6,
@@ -250,7 +250,7 @@ const navlinks = [
   // },
 
   {
-    id: 6,
+    id: 4,
     "text" : "Contact Me",
     "link" : "#contact"
   },
